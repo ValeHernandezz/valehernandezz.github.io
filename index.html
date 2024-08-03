@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" type="text/css" />
+  <title>Valentina Hernández - Portafolio</title>
+</head>
+
+<body>
+  <nav>
+    <div class="logo">ValeHernandezz</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">Sobre mí</a></li>
+        <li><a href="#projects">Proyectos</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="./images/profile.webp" alt="Valentina Hernández foto de perfil" class="profile-pic" />
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">¡Hola! Soy</p>
+      <h1 class="title">Valentina Hernández</h1>
+      <p class="section__text__p2">Estudiante de Jóvenes a Programar</p>
+      <div id="socials-container">
+        <a href="https://www.linkedin.com/in/valentina-hernandez-modino/" target="_blank">
+          <img src="./images/icons/linkedin.webp" alt="Mi perfil de LinkedIn" class="icon" />
+        </a>
+        <a href="https://github.com/ValeHernandezz" target="_blank">
+          <img src="./images/icons/github.webp" alt="Mi perfil de GitHub" class="icon" />
+        </a>
+      </div>
+  </section>
+
+  <section id="about">
+    <p class="section__text__p1">Más información</p>
+    <h1 class="title">Sobre mí</h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img src="./images/about-me.webp" alt="Valentina Hernández foto sobre mí" class="about-pic" />
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="./images/icons/ceibal.webp" alt="Icono Ceibal" class="icon" />
+            <h3>Jóvenes a Programar</h3>
+            <p>Ceibal</p>
+            <p class="about-detail-period">Marzo 2024 − Actualmente...</p>
+          </div>
+          <div class="details-container">
+            <img src="./images/icons/utec.webp" alt="Icono UTEC" class="icon" />
+            <h3>Licenciatura en Tecnologías de la Información</h3>
+            <p>Univerdidad Tecnológica del Uruguay</p>
+            <p class="about-detail-period">Agosto 2022 − Actualmente...</p>
+          </div>
+          <div class="details-container">
+            <img src="./images/icons/highschool.webp" alt="Icono secundaria" class="icon" />
+            <h3>Bachillerato<br>Físico-Matemático</h3>
+            <p>Liceo Nº 1 Eduardo Fabini</p>
+            <p class="about-detail-period">Marzo 2020 - Diciembre 2021</p>
+          </div>
+        </div>
+        <div class="about-description">
+          <p>
+            <span class="purple">Técnica Superior Universitaria en Tecnologías de la Información</span> y estudiante de <span
+              class="turquoise">Jóvenes a Programar</span> con habilidades en <span class="blue">Java,
+              SQL, HTML y CSS</span>. Con conocimientos en el desarrollo de páginas web utilizando <span
+              class="green">JPA, JSP, Astro, React y Tailwind CSS
+            </span>.
+          </p>
+        </div>
+      </div>
+    </div>
+    <img src="./images/icons/arrow.webp" alt="Icono flecha" class="icon arrow" onclick="location.href='./#projects'" />
+  </section>
+
+  <section id="projects">
+    <p class="section__text__p1">Mis</p>
+    <h1 class="title">Proyectos</h1>
+    <div>
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div>
+            <img src="./images/projects/gestion-de-constancias-utec-web.webp"
+              alt="Proyecto Gestión de Constancias UTEC - Web Version" class="project-img" />
+          </div>
+          <h2 class="project-title">Gestión de Constancias UTEC<br>Web Version</h2>
+          <div class="btn-container">
+            <button class="btn btn-color project-btn"
+              onclick=location.href='https://git.utec.edu.uy/error404/proyectos/pinfra-error404-minas-2023'>
+              GitHub
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div>
+            <img src="./images/projects/wot-books.webp" alt="Proyecto Libros de La Rueda del Tiempo"
+              class="project-img" />
+          </div>
+          <h2 class="project-title">Libros de<br>La Rueda del Tiempo</h2>
+          <div class="btn-container">
+            <button class="btn btn-color project-btn"
+              onclick=location.href='https://github.com/ValeHernandezz/wot-books'>
+              GitHub
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div>
+            <img src="./images/projects/gestion-de-constancias-utec-desktop.webp"
+              alt="Proyecto Gestión de Constancias UTEC Desktop Version" class="project-img" />
+          </div>
+          <h2 class="project-title">Gestión de Constancias UTEC<br>Desktop Version</h2>
+          <div class="btn-container">
+            <button class="btn btn-color project-btn"
+              onclick=location.href='https://github.com/ValeHernandezz/proyecto-gestion-constancias'>
+              GitHub
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="./images/icons/arrow.webp" alt="Icono flecha" class="icon arrow" onclick="location.href='./#contact'" />
+  </section>
+
+  <section id="contact">
+    <p class="section__text__p1">Ponte en</p>
+    <h1 class="title">Contacto</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="./images/icons/email.webp" alt="Icono Email" class="icon contact-icon" />
+        <p><a href="mailto:valehm09@gmail.com">valehm09@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./images/icons/linkedin.webp" alt="Icono LinkedIn" class="icon contact-icon" />
+        <p><a href="https://www.linkedin.com/in/valentina-hernandez-modino/" target="_blank">LinkedIn</a></p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <nav>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">Sobre mí</a></li>
+          <li><a href="#projects">Proyectos</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>&#169; 2024 Valentina Hernández 💜</p>
+  </footer>
+</body>
+
+</html>
