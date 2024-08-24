@@ -6,11 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" type="image/x-icon" href="/images/favicon.svg">
   <link rel="stylesheet" href="style.css" type="text/css" />
-  <title>Valentina Hernández - Portafolio</title>
+  <link rel="stylesheet" href="mediaqueries.css" type="text/css" />
+  <title>Valentina Hernández | Portafolio JaP</title>
 </head>
 
 <body>
-  <nav>
+  <nav id="desktop-nav">
     <div class="logo">ValeHernandezz</div>
     <div>
       <ul class="nav-links">
@@ -18,6 +19,21 @@
         <li><a href="#projects">Proyectos</a></li>
         <li><a href="#contact">Contacto</a></li>
       </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">ValeHernandezz</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">Sobre mí</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Proyectos</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contacto</a></li>
+      </div>
     </div>
   </nav>
 
@@ -67,13 +83,12 @@
             <p class="about-detail-period">Marzo 2020 - Diciembre 2021</p>
           </div>
         </div>
-        <div class="about-description">
+        <div class="about-description text-container">
           <p>
             <span class="purple">Técnica Superior Universitaria en Tecnologías de la Información</span> y estudiante de <span
               class="turquoise">Jóvenes a Programar</span> con habilidades en <span class="blue">Java,
               SQL, HTML y CSS</span>. Con conocimientos en el desarrollo de páginas web utilizando <span
-              class="green">JPA, JSP, Astro, React y Tailwind CSS
-            </span>.
+              class="green">JPA, JSP, Astro, React y Tailwind CSS</span>.
           </p>
         </div>
       </div>
@@ -157,6 +172,8 @@
     </nav>
     <p>&#169; 2024 Valentina Hernández 💜</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 
 </html>
